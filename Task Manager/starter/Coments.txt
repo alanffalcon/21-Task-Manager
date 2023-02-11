@@ -1,0 +1,9 @@
+Apuntes
+
+app.get('/api/v1/tasks', tasks)       -get all the tasks
+app.post('/api/v1/tasks', tasks)      -create a new task
+app.get('/api/v1/tasks', tasks)       -get single tasj
+app.patch('/api/v1/tasks', tasks)     -update task
+app.delete('/api/v1/tasks', tasks)    -delete task
+
+Dotenv con gitignore y .env nos permite ocultar la info de acceso a la db a los que la vean en github
